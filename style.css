@@ -1,19 +1,26 @@
 body {
-  background: yellow;
   margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background: yellow;
 }
 
+
 header {
+  position: sticky;
+  top: 0;
   background: #333;
   color: white;
   text-align: center;
   padding: 15px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
 
 h1 {
   margin: 0;
   white-space: nowrap;
 }
+
 
 nav ul {
   list-style: none;
@@ -26,4 +33,24 @@ nav ul {
 nav a {
   color: white;
   text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+
+footer {
+  background: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
