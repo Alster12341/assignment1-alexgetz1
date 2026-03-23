@@ -4,7 +4,7 @@ body {
   line-height: 1.6;
   background: yellow;
 }
-/*this changes font and background color*/
+
 
 header {
   position: sticky;
@@ -15,7 +15,7 @@ header {
   padding: 15px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
 }
-/*this makes the header sticky*/
+
 h1 {
   margin: 0;
   white-space: nowrap;
@@ -47,7 +47,7 @@ main {
   min-height: calc(100vh - 120px); 
   text-align: center;
 }
-/*should make the main text centered*/
+
 
 footer {
   background: #333;
